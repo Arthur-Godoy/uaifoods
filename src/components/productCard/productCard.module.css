@@ -1,0 +1,25 @@
+.container{
+    background-color: #352f44;
+    padding: 2px;
+    color: #dbd8e3;
+}
+.productPhoto{
+    width: 170px;
+    aspect-ratio: 16/12;
+    object-fit: cover;
+}
+
+.textContainer{
+    padding: 10px 5px 5px 0px;
+}
+
+.ingredients{
+    color: #969599;
+    height: 70px;
+    overflow: hidden;
+}
+
+.price{
+    vertical-align: bottom;
+    padding: 10px 0 0 0;
+}

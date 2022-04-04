@@ -1,0 +1,15 @@
+.skeleton{
+    height: 100%;
+    width: 94%;
+    position: absolute;
+    top: -40px;
+    padding:0px 3% 0px 3%;
+}
+.principal{
+    color:#dbd8e3;
+    padding: 1%;
+}
+.semiTitle{
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
