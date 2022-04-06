@@ -1,0 +1,13 @@
+.formContainer{
+    text-align: center;
+}
+.semiTitle{
+    text-align: left;
+    padding: 10px 0px 10px 10px;
+}
+@media screen and (max-width:600px) {
+    .semiTitle{
+        text-align: center;
+        padding: 10px 0px 10px 0px;
+    }
+}
