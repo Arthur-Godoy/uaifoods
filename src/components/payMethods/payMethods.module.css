@@ -5,14 +5,3 @@
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.semiTitle{
-    padding-left: 20px;
-    padding-bottom: 20px;
-}
-@media screen and (max-width:600px) {
-    .semiTitle{
-        text-align: center;
-        padding-left: 0px;
-        padding-bottom: 20px;
-    }
-}

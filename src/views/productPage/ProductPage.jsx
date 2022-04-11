@@ -17,17 +17,20 @@ const ProductPage = () => {
         <img src='./assets/hamburguer.jpg' alt='foto do produto selecionado' className={styles.productImg}/>
       </header>
       <section className={styles.contentContainer}>
-        <Grid container  spacing={2}>
+        <Grid container rowSpacing={0} columnSpacing={10}>
           <Grid item xs={12} md={6}>
               <Typography variant='h5' component={'h2'} className={styles.semiTitle}>Igredientes</Typography>
               <Typography variant='p' className={styles.text}>Pão de Brioche com gergilin, Hamburguer de 200g recheado com mussarela, farofa de bacon, cebola caramelizada, maionese caseira</Typography>
-          </Grid>
-          <Grid item xs={12} md={6} spacing={2}>
-              <AdditionalsForm/>
-          </Grid>
-          <Grid item xs={12} md={6} spacing={2}>
+          </Grid> 
+          <Grid item xs={12} md={6}>
+            <Typography variant='h5' component={'h2'} className={styles.semiTitle}>Metodo de Pagamento</Typography>
             <PayMethods/>
           </Grid>
+          <Grid item xs={12} md={6}>
+              <Typography variant='h5' component={'h2'} className={styles.semiTitle}>Adicionais</Typography>
+              <AdditionalsForm/>
+          </Grid>
+         
         </Grid>
       </section>
     </div>

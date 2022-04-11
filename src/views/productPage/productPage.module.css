@@ -33,6 +33,7 @@
     padding-bottom: 20px;
 }
 .text{
+    text-align: justify;
     font-size: 18px;
 }
 .titleName{
@@ -47,12 +48,18 @@
     width: 80px;
 }
 @media screen and (max-width:600px) {
+    .text{
+        line-height: 23px;
+    }
     .semiTitle{
+        border-bottom: 2px solid #352f44;
         text-align: center;
         padding-left: 0px;
+        padding-top: 20px;
         padding-bottom: 20px;
     }
     .contentContainer{
+        text-align: justify;
         margin: 0px;
     }
     .icon{

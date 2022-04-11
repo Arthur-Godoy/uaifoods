@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './payMethods.module.css'
-import { FormControl, Button, Input, FormControlLabel, Radio, RadioGroup, Typography } from '@mui/material';
+import { FormControl, Input, FormControlLabel, Radio, RadioGroup } from '@mui/material';
 import { useState } from 'react';
 
 const PayMethods = () => {
@@ -8,7 +8,6 @@ const PayMethods = () => {
     return (
         <>
             <FormControl>
-                <Typography variant='h5' component={'h2'} className={styles.semiTitle}>Metodo de Pagamento</Typography>
                     <RadioGroup name="pagamento">
                         <FormControlLabel 
                             value="cartao" 
